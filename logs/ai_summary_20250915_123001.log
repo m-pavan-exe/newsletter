@@ -1,0 +1,19 @@
+2025-09-15 12:30:01 - __main__ - INFO - Pipeline type: bs_summary
+2025-09-15 12:30:01 - __main__ - INFO - Template path: /home/Girish/apps/AI_Workspace/NewsLetter/template/BS_AI_SUMMARY_TEMPLATE.docx
+2025-09-15 12:30:01 - __main__ - INFO - Log directory: /home/Girish/apps/AI_Workspace/NewsLetter/logs
+2025-09-15 12:30:01 - __main__ - INFO - Output directory: /home/Girish/apps/AI_Workspace/NewsLetter/outputs
+2025-09-15 12:30:01 - __main__ - INFO - Pipeline started.
+2025-09-15 12:30:01 - __main__ - INFO - DB config loaded, engine created
+2025-09-15 12:31:53 - __main__ - INFO - Starting BS summary pipeline for country: KE, le_book: 01
+2025-09-15 12:31:53 - db_access.db_loader - INFO - Fetching BOOK_CCY for country: KE
+2025-09-15 12:39:03 - __main__ - INFO - Fetching data from database
+2025-09-15 12:39:03 - db_access.db_loader - INFO - Executing custom SQL query...
+2025-09-15 12:39:12 - db_access.db_loader - INFO - Query executed successfully. Returned 31080 rows
+2025-09-15 12:39:12 - db_access.db_loader - INFO - Executing custom SQL query...
+2025-09-15 12:39:13 - db_access.db_loader - INFO - Query executed successfully. Returned 153 rows
+2025-09-15 12:42:17 - __main__ - INFO - Combined dataframe shape: (31233, 16)
+2025-09-15 12:46:55 - __main__ - INFO - Formatting nested amounts
+2025-09-15 12:54:11 - root - ERROR - Chat endpoint failed: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x774df401b460>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-15 12:57:36 - root - ERROR - Chat endpoint failed: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x774df4018a30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-15 12:58:58 - root - ERROR - Chat endpoint failed: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x774df401a230>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-15 12:59:44 - root - ERROR - Chat endpoint failed: HTTPConnectionPool(host='localhost', port=8011): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x774df4015b10>: Failed to establish a new connection: [Errno 111] Connection refused'))

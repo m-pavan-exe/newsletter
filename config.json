@@ -1,0 +1,14 @@
+
+
+{
+     "database": "ORACLE",
+     "host": "10.16.1.106",
+     "port": "1521",
+     "service_name": "visdb",
+     "username": "VISION_CLOUD",
+     "password": "visioncould123",
+     "VLLM_API_BASE": "http://localhost:8011",
+     "VLLM_MODEL_NAME": "Qwen/Qwen3-4B"  
+}
+  
+  
